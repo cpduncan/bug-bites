@@ -8,7 +8,7 @@ public class Main {
 
             JFrame window = new JFrame();
             window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            window.setTitle("BugBites");
+            window.setTitle("BugBites"); //
             window.setResizable(false);
             GamePanel gp = new GamePanel();
             window.add(gp);
